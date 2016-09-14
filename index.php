@@ -5,6 +5,7 @@
 include('views/header.html');
 
 
+
 $page = (empty($_GET['page']))?'' : $_GET['page'];
 
 switch($page) {
@@ -25,10 +26,8 @@ switch($page) {
 
 }
 
-//include "views/footer.php";
 
-
-
+include('views/footer.html');
 
 
 ?>
