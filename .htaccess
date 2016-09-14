@@ -1,6 +1,6 @@
-RewriteEngine on
-#RewriteEngine On RewriteCond %{HTTPS} off RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
-
-RewriteRule ^projects ?page=projects [NC,L]
-RewriteRule ^contact ?page=contact [NC,L]
-RewriteRule ^home ?page=home [NC,L]
+#RewriteEngine on
+##RewriteEngine On RewriteCond %{HTTPS} off RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+#
+#RewriteRule ^projects ?page=projects [NC,L]
+#RewriteRule ^contact ?page=contact [NC,L]
+#RewriteR ^home ?page=home [NC,L]

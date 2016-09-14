@@ -13,18 +13,19 @@ switch($page) {
         include 'views/projects.html';
         break;
 
-    case 'contact';
-        include 'views/contact.html ';
+    case 'home';
+        include 'views/home.html';
         break;
 
-    case 'home';
-        include 'views/home.html ';
+    case 'contact';
+        include 'views/contact.html';
         break;
+
 
     default:
         include 'views/home.html';
 
-}
+};
 
 
 include('views/footer.html');
