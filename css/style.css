@@ -8,6 +8,7 @@ footer.page-footer.jaleuk {
 
 
 body {
+	
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -15,4 +16,9 @@ body {
 
 main {
   flex: 1 0 auto;
+}
+
+h1 {
+  
+  color:white;
 }
