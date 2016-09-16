@@ -1,14 +1,14 @@
 footer.page-footer.jaleuk {
+	background-color: #999999;
 
-	background-color: #999999;	
-	
 
-	
+
 }
 
 
+
 body {
-	
+
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -19,30 +19,30 @@ main {
 }
 
 h1 {
-  
+
   color:white;
 }
 
 h2 {
-  
+
   color:white;
 }
 h5 {
-  
+
   color:white;
 }
  form {
     display: inline-block;
-   
-	
+
+
     }
-	
-	
-	
+
+
+
 container {
 	 float: left;
     margin-left: 300px;
     margin-top: 310px;
     width: 533px;
-	
+
 }
