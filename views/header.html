@@ -6,18 +6,26 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <title>Welkom bij Codepoint</title>
 </head>
 
 <body>
     <main>
 
-        <nav>
-            <div class="nav-wrapper black">
-                <a href="#" class="brand-logo"><img height="60" class="codepoint_logo" src="images/rotlogo.png"></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <nav class="black" role="navigation">
+            <div class="nav-wrapper container">
+                <a href="home" class="brand-logo"><img height="60" class="codepoint_logo" src="images/rotlogo.png"></a>
+                <ul class="right hide-on-med-and-down">
                     <li><a href="home">Home</a></li>
-                    <li><a href="projects">Projects</a></li>
+                    <li><a href="projects">Projecten</a></li>
                     <li><a href="contact">Contact</a></li>
                 </ul>
+
+                <ul id="nav-mobile" class=" black side-nav">
+                    <li><a class="white-text" href="home">Home</a></li>
+                    <li><a class="white-text" href="projects">Projecten</a></li>
+                    <li><a class="white-text" href="contact">Contact</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
         </nav>
