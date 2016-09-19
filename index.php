@@ -5,8 +5,8 @@ include('views/header.html');
 $page = (empty($_GET['page']))?'' : $_GET['page'];
 
 switch($page) {
-    case 'projects';
-        include 'views/projects.html';
+    case 'overons';
+        include 'views/overons.html';
         break;
 
     case 'home';
