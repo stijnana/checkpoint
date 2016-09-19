@@ -47,3 +47,70 @@ container {
     width: 533px;
 
 }
+
+nav.black div.nav-wrapper.container ul.right.hide-on-med-and-down li a {
+	
+	   transition: font-size 0.1s linear;
+    /* vendorless fallback */
+    -o-transition: font-size 0.1s linear;
+    /* opera */
+    -ms-transition: font-size 0.1s linear;
+    /* IE 10 */
+    -moz-transition: font-size 0.1s linear;
+    /* Firefox */
+    -webkit-transition: font-size 0.1s linear;
+    /*safari and chrome */
+	
+	
+}
+
+
+nav.black div.nav-wrapper.container ul.right.hide-on-med-and-down li a:hover {
+	background-color: #b71c1c;
+	font-size: x-large;
+	   transition: font-size 0.2s linear;
+    /* vendorless fallback */
+    -o-transition: font-size 0.2s linear;
+    /* opera */
+    -ms-transition: font-size 0.2s linear;
+    /* IE 10 */
+    -moz-transition: font-size 0.2s linear;
+    /* Firefox */
+    -webkit-transition: font-size 0.2s linear;
+    /*safari and chrome */
+	
+}
+
+nav.black div.nav-wrapper.container a.brand-logo img.codepoint_logo {
+
+	   transition: height 0.1s;
+    /* vendorless fallback */
+    -o-transition: height 0.1s;
+    /* opera */
+    -ms-transition: height 0.1s;
+    /* IE 10 */
+    -moz-transition: height 0.1s;
+    /* Firefox */
+    -webkit-transition: height 0.1s;
+    /*safari and chrome */
+	
+	
+}
+
+
+nav.black div.nav-wrapper.container a.brand-logo img.codepoint_logo:hover {
+	
+	height: 80px;
+	
+		   transition: height 0.2s;
+    /* vendorless fallback */
+    -o-transition: height 0.2s;
+    /* opera */
+    -ms-transition: height 0.2s;
+    /* IE 10 */
+    -moz-transition: height 0.2s;
+    /* Firefox */
+    -webkit-transition: height 0.2s;
+    /*safari and chrome */
+	
+}
