@@ -13,7 +13,7 @@ $email = $_POST ['to'];
 $phone = $_POST ['telephone'];
 
 
-$to      = 'stijn.olthof@live.nl';
+$to      = 'info@code-point.nl';
 $subject = $onderwerp;
 $message = $bericht;
 $headers = 'From:'.$email . "\r\n" .
@@ -25,10 +25,10 @@ mail($to, $subject, $message, $headers);
 
 
 $to      = $email;
-$subject = 'mail verzonden';
-$message = 'bedankt voor how vraag';
-$headers = 'From: stijn.olthof@live.nl' . "\r\n" .
-    'Reply-To: stijn.olthof@live.nl' . "\r\n" .
+$subject = 'Mail verzonden.';
+$message = 'Bedankt voor uw vraag.';
+$headers = 'From: info@code-point.nl' . "\r\n" .
+    'Reply-To: info@code-point.nl' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 mail($to, $subject, $message, $headers);
